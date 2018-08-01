@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="10b1aa29-0364-41b8-921d-b8e8cff1fdbf"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Disable_All_Port_Forwarding_Rules
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Disable_All_Port_Forwarding_Rules"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="False"
+		optional="False"
+		methodname="Choose_All_Port_Fwd_Rules_to_Disable"
+		varname="">
+			<comment/>
+			<bindings/>
+			<imagebasedlocations>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				screenshotname="Screenshot1"
+				screenshotguid="716234d3-e6d2-4bf7-83a4-61a6df0e4e7c"
+				codegenpropertyname="FmCbxFm01_Screenshot1"
+				searchpropertyid="b1c88f70-8015-419e-8b94-ef16145136f4">
+					<info
+					sourcename="ElementTree"
+					id="d86b3110-eda6-468f-a66d-2ab66e2f0e9a">
+						<path>
+							/dom[@browsername='IE']//b[#'fmCbx-fm-0-1']
+						</path>
+					</info>
+				</imagebasedlocation>
+			</imagebasedlocations>
+			<arguments
+			id="f8f9105e-4cc1-48ad-ae97-8b4b092c094a"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_All_Port_Forward_Rules_to_Disable"
+		varname="">
+			<comment>
+				Implemented based on R3.5
+			</comment>
+			<bindings/>
+			<arguments
+			id="3d5d9686-3b1d-429f-91de-326222b355a7"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Disable_All_Port_Forwarding_Rules.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

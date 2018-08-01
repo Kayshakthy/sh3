@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="3dcc5bdf-507f-45e0-b7c2-66db64021a0f"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_All_From_DHCP_Reserved_List
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_All_From_DHCP_Reserved_List"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_All_DHCP_Reserved_Rules_To_Delete"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="f324e32b-75a0-4a5e-8dc4-15ed8d6065e4"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_All_From_DHCP_Reserved_List.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

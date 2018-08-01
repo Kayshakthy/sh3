@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="f294e6aa-84e0-46dc-a071-2ae7fcd64afa"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		CloseBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="False"
+		optional="True"
+		useDefaultLogging="False"
+		searchpropertyid="a3d69aa4-b277-47ee-8331-a11b6215d346"
+		method="CloseWindow"
+		graceperiod="10000ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="bb536575-db9d-4e08-814f-b12aec157064">
+				<path>
+					/dom[@domain='192.168.0.1']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CloseBrowserApplication"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="2e08176d-16aa-40b1-a8b6-98e0fb7a354b"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

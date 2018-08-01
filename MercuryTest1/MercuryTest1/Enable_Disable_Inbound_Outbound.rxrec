@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="9e24e12a-2e70-4dbb-a7bc-19ee0871f22a"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Enable_Disable_Inbound_Outbound
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Enable_Disable_Inbound_Outbound"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="inbound_outbound"
+		id="44bfa917-f771-47a4-bc6f-6ac1fbb62b82">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="EnableDisable_inbound_outbound"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a62dcb6c-bf71-450b-93c6-3ac056d44f69">
+				<argument
+				variable="inbound_outbound"
+				argname="argument1"
+				id="496914d3-c2e0-42af-876e-9d3e9f3d0e70">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Enable_Disable_Inbound_Outbound.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

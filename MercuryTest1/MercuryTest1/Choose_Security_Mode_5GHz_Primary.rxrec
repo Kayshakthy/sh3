@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="1615bfc1-d54e-46cc-a25a-14666a17734d"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_Security_Mode_5GHz_Primary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_Security_Mode_5GHz_Primary"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Security_Mode_5GHz_Primary"
+		id="6362774e-a7c5-419b-94b4-254f11ba2b6c">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Validate_SecurityMode_5GHz_Primary"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="cb74e664-b7cd-4882-9768-5bc49ab6c823">
+				<argument
+				variable="Security_Mode_5GHz_Primary"
+				argname="argument1"
+				id="17d76d53-567e-42aa-855e-91f5026130f8">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_Security_Mode_5GHz_Primary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

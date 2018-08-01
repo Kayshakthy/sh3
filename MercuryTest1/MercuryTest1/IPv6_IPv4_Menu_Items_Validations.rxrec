@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="7a745030-c689-459b-83e2-e7fd543f5cf5"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		IPv6_IPv4_Menu_Items_Validations
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="IPv6_IPv4_Menu_Items_Validations"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Modem_Env"
+		id="eebeab69-3c01-4239-96f1-472eddab17d6">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Validate_IPv6_IPv4_Menu_Items"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="44de023f-4c33-44dd-a6cd-81627577021b">
+				<argument
+				variable="Modem_Env"
+				argname="argument1"
+				id="13ade67c-d463-454c-8480-d9f477546915">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		IPv6_IPv4_Menu_Items_Validations.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

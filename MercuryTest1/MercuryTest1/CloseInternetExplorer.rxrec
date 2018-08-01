@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="4621deec-0480-4740-9eaa-024145f8ff77"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		CloseInternetExplorer
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseInternetExplorer"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="d7a0842f-fdcf-4d4f-917a-aed11df0cefa"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="3162"
+		sy="24"
+		loc="3162;35">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="e0744c8d-e4a6-454b-8da3-1f52c2f88705">
+				<element
+				role="unknown"
+				prefcap="unknown"
+				capabilities="nativewindow"
+				flavor="win32"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="0,-11,3200,42"
+				snapElem="">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Client Caption
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						4656786
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1136
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						iexplore
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Overlapped, ClipSiblings, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					name="AccessibleDefaultAction"
+					type="System.String"
+					description="The default action of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleDescription"
+					type="System.String"
+					description="The description of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelp"
+					type="System.String"
+					description="The help string of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelpTopic"
+					type="System.String"
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."/>
+					<dynamicattribute
+					name="AccessibleKeyboardShortcut"
+					type="System.String"
+					description="The keyboard shortcut of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleName"
+					type="System.String"
+					description="The name of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The role of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The state of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleValue"
+					type="System.String"
+					description="The value of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicaction
+					displayName="AccessibleDoDefaultAction"
+					description="Invokes the default action of the accessible object."/>
+				</element>
+				<path>
+					/form[@title~'^http://192\.168\.0\.1/\?devic']/element[@class='Client Caption']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="c10bdeb3-e8d1-43a3-8818-b30972fa5ec8">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseInternetExplorer.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="5f622e02-e7e2-408f-9b02-a7a5c53f079c"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_Any_DHCP_Reserv_Rule
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_Any_DHCP_Reserv_Rule"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="MAC_address_DHCP"
+		id="709d8fc2-cc2b-4aaf-9d98-0c1b8dba8299">
+		</var>
+		<var
+		name="IP_Address_DHCP"
+		id="d3f6e66c-15e8-4acd-b272-d2e18d1c8710">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_Any_DHCP_Reserv_Rule_To_Delete"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ce076eb9-8f72-45fe-ac87-42a8a48dd4a9">
+				<argument
+				variable="MAC_address_DHCP"
+				argname="argument1"
+				id="c3aede3d-fa3c-4914-8e27-a0a25d7fd5f9">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="IP_Address_DHCP"
+				argname="argument2"
+				id="1f7ff62f-a13b-4657-b69d-9008d134aab2">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_Any_DHCP_Reserv_Rule.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

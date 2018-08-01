@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="588e9fa8-7380-4799-bcfb-21e1db05425d"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_All_Devices_From_MAC_List_2_4GHz_Primary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_All_Devices_From_MAC_List_2_4GHz_Primary"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_All_Devices_From_MAC_List_To_Delete_2_4GHz_Primary"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="66f0abe0-d06f-40b2-8259-c2b60189c197"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_All_Devices_From_MAC_List_2_4GHz_Primary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

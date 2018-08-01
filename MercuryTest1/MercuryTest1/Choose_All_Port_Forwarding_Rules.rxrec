@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="0ed3b962-dc84-48e5-b548-d83969d3f945"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_All_Port_Forwarding_Rules
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_All_Port_Forwarding_Rules"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Local_IP"
+		id="4913bc2e-6377-4b97-86ec-60d8b9828dab">
+		</var>
+		<var
+		name="Local_start_port"
+		id="1b279b70-c59a-4176-8b1f-ad241d5dd59f">
+		</var>
+		<var
+		name="Local_end_port"
+		id="19792f88-7837-4536-ba7a-1d10a3bc3638">
+		</var>
+		<var
+		name="External_start_port"
+		id="83b9ebaf-5b11-4c6f-a28e-a4206d371c54">
+		</var>
+		<var
+		name="External_end_port"
+		id="89f3ac92-2455-4485-ade3-e902e0757125">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="False"
+		optional="False"
+		methodname="Choose_all_port_fwd_rules_to_delete"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="e919b6da-8de0-4475-aa81-579a0338bb70"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_all_port_forward_rules_to_delete"
+		varname="">
+			<comment>
+				Implemented based on R3.5 ( 9.1.116J)
+			</comment>
+			<bindings/>
+			<arguments
+			id="20feb900-317b-49d7-ab19-90977f90a4df"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_All_Port_Forwarding_Rules.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

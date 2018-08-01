@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="06bc9594-54f4-4508-869c-f69e56fd2996"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Allow_Add_Device_To_Mac_List
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Allow_Add_Device_To_Mac_List"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Mac0"
+		id="d8ea8ad6-a2ef-49ad-adbd-8061f6c5c5cb">
+		</var>
+		<var
+		name="Mac1"
+		id="6c23ef02-d135-4881-82e4-1f6c64739ca3">
+		</var>
+		<var
+		name="Mac2"
+		id="bc06ef6d-f67b-4944-b129-964f7a5d23cb">
+		</var>
+		<var
+		name="Mac3"
+		id="1b1be6ad-76f7-4dc7-9001-a0a0086452ba">
+		</var>
+		<var
+		name="Mac4"
+		id="48b77851-a1a3-40d1-82b0-ffe3198998b0">
+		</var>
+		<var
+		name="Mac5"
+		id="e0e7ad1b-ece6-4ab2-99c3-05d40ca60b19">
+		</var>
+		<var
+		name="Filter_Option"
+		id="8312e0e2-7305-457a-a824-3a03fe58e377">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		enabled="False"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="0fd6751f-0e3a-43aa-9952-f3adb7659e69"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="489"
+		sy="379"
+		loc="14;14">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="736fc4b7-36e7-4da6-93d7-7971d56680d1">
+				<element
+				role="unknown"
+				prefcap="atag"
+				capabilities="webelement, atag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="475,365,25,25"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						fmRadio
+					</attribute>
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						fmRbtn-AllowAllDevices
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#160;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="rel"
+					type="System.String">
+						BssAccessModeGrp
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="accessKey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="charset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="coords"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dataFld"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dataFormatAs"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dataSrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hideFocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hreflang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="methods"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="shape"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="urn"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='192.168.0.1']//a[#'fmRbtn-AllowAllDevices']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0886b018-6da6-4e67-a2c9-3125da2e9822">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACWAJYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqKaQ
+rnGdq8tjrUMrqdiQHLv3B6CpckhN2LCyb5CF+6vBPvT6jgARPLAxt4pZXZSoRQxY45OP6U1e2o0P
+oqNZGyVdQrDH8XBHsaXzY9xXzE3KMkbhkUwH0VGZ49m9XVlyASG4FL5qnYUIYMcZBz2oAfRTRIjO
+UV1LDqAeRTqACioLiRlIVTjvRQBPRRRQAUUUUAFFFFABRRRQBGcLId33WqOG3WCV5Mjafu+1WCAR
+gjNNEaA520nFN3YrXEj5LN/e6U2Y7XjYhiATnapPb2qWimMrvmU7wrBRgDIwTyM8fhSbnVnWEMRy
+cMhGD7HvVmigCnyWZj5rj5Tlo8Hg+mBT/vSeYqMF3DqpyeCM469xVmigCrbhtyK4OUB6RlQD9Sef
+wq1RRQBHNF5mCDgiipKKACiiigAooooAKKKKACiiqd/fGzaJVhMpkJAAOPT296TdtWVGLm+WJcor
+M/tO6/6Bs36/4Uf2ndf9A2b9f8KXOjX6vU/po06KzP7Tuv8AoGzfr/hU9hfG8aVWhMRjIBBOfX29
+qFJPQmVGcVzNfii5RRRVGQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVmar/x/af/ANdP6rWnWZqv
+/H9p/wD10/qtTPY3w/8AE+/8jReRYxljUf2le6MB6kUmN9y27+HgUXMohCDynkaRtqqmM5wT3IHQ
+GjVnOTghhkHINZmlf8f2of8AXT+rVZsZVlTcmQjKHUHqARmqdgT9rv1UkFpcAjty2f0pPdG9P+HP
+5fma1FQ7jiMZOQ20+/BpEkkMaBEDtsBYs2KsxJ6Kh+0Dymfb0xx9f8/pUivudlA+7jmgB1MklWPj
+qfSn1Slz5rZ9aALAuBnDqVNFQTDErCigC5RRRQAUUUUAFFFFABWZqv8Ax/af/wBdP6rWnVO/sTeN
+EyzGIxkkEDPp7+1TJXWhrRkozTl5/kTSoyyeZGM+o9aptexz31pEocMJX6oQDhGBwe+DSf2Zdf8A
+QSm/X/Gm20D2F5HFPK00UpLxsQfkkwcj8QSevY0K9xShFK8ZX+8htvttlbxlDuXy4AUmTHLHaVBG
+MY46g0ujqLm5u5JowDv5jbBwcn+XNak0qojMxAVRkk9hVPRIHWB7qThro+Zs/ugkkc9+DTa1QQla
+Ml3/AM0XRAFP7vagBBCheM9DSCGRANkgBxt5XPHbv1qaimZkQgAdSDwoxg9/f9TToY/KTGdxz1p9
+FABTJIlk56H1p9FAEK26j7xJ/SipqKACiiigAooooAKKKKACiiigAqK6t0uYgjkqVYOrDGVIOQRk
+GpaKAKUmnGWNkkvLgqwIIwnIP/AauKqooVFCqowABgAUtFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUANZjkKoyx/SkxIOdwPtigcTNnuBin0AIjbhnoe4pJJFjxuzzwMKT/Kkj5dyOmaS
+T/WxfU/yoAckiyA7SeOoIwR+Bp1V53w7FMkgANtxnkj/AOvTQCWCbpFUsPlMmWHB75/rQBaoquG8
+rLFmKKxU5OeMf41NFu8sFvvHk+3tQA4nAyaq+Y0j43FR7VZYZUj1FVE/dSgsDxQA+Odl4b5hRUaR
+s/3RRQBdooooAKKKKACiiigAooooARlDdeo6EU3Yx4LnH0p9FAAAAMDpTXjSQYkRWHowzTqKAGqi
+KmxUUL6AcULGiABEVQDnAGKdRQBG8Zc4BAQ8sAOT+NSUUUAFIVB6gH60tFAAAAMAYooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="False"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="Choose_Attached_Devices_To_Add_2_4GHz_Primary"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="2f2200b1-363f-4586-93d1-5b74a6d7b661">
+				<argument
+				variable="Mac0"
+				argname="argument1"
+				id="e7f8448f-c138-43c9-ab23-e211dce19606">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="Mac1"
+				argname="argument2"
+				id="839f3e92-751e-4362-8f48-d6f5961c9103">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="Mac2"
+				argname="argument3"
+				id="baa9fd32-6b8d-408b-8bf4-a7c77cbd2692">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="Mac3"
+				argname="argument4"
+				id="55cf6810-2efc-42c4-a5ba-81ad498f8ec4">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="Mac4"
+				argname="argument5"
+				id="c6170db9-3494-4cf6-9dfd-e003d749ead8">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="Mac5"
+				argname="argument6"
+				id="323da1f7-7106-4975-bf7d-f2bf6bba3918">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="Filter_Option"
+				argname="argument7"
+				id="1148e307-949f-474a-a84c-5d5837c60cb0">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Allow_Add_Device_To_Mac_List.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

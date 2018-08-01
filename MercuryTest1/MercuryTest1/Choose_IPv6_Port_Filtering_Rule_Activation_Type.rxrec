@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="300ed3ca-d6c6-4eeb-9ac1-03e32072ec7d"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_IPv6_Port_Filtering_Rule_Activation_Type
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_IPv6_Port_Filtering_Rule_Activation_Type"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="IPv6_PortFiltering_Activation_Type"
+		id="3aa65972-a563-46d8-902b-7d5193291b3c">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_IPv6_Port_Filtering_Rule_ActivationType"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="272c0df3-2879-4bf2-902c-d2770a1aeef2">
+				<argument
+				variable="IPv6_PortFiltering_Activation_Type"
+				argname="argument1"
+				id="b015e347-4860-4bfb-9ddb-2d17d5e9b708">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_IPv6_Port_Filtering_Rule_Activation_Type.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

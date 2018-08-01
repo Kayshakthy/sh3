@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="4f058bdb-2a8f-40fe-b76e-07f6a89a969f"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_Wireless_Mode_5GHz
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_Wireless_Mode_5GHz"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Wireless_Mode_5GHz"
+		id="60d0ea53-6351-4a53-8332-2615d8acedc8">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Wireless_Mode_Selection_5GHz"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="c99dd91a-8cb9-4ae6-9c8b-36c72840ad1b">
+				<argument
+				variable="Wireless_Mode_5GHz"
+				argname="argument1"
+				id="e599cba5-2596-4ae6-aa8a-bb3efec7a6e6">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_Wireless_Mode_5GHz.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

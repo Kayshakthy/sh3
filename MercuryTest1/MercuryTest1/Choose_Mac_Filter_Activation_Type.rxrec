@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="1cddbdd0-b2a8-406f-a36b-1b84b73f5253"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_Mac_Filter_Activation_Type
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_Mac_Filter_Activation_Type"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Mac_Flter_Type"
+		id="52931e18-e5f6-4dc5-b3ab-d3d0bd735589">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_MAC_Filter_Active_Type"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="c6c22e01-bb47-4e72-a973-a654ddf410a4">
+				<argument
+				variable="Mac_Flter_Type"
+				argname="argument1"
+				id="c667c8a8-2cf9-47d3-8743-d8b2a8afb393">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_Mac_Filter_Activation_Type.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

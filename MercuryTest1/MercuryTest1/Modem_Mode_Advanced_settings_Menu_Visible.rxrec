@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="2bef8fb1-e917-4358-9891-3f0a6954fba2"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Modem_Mode_Advanced_settings_Menu_Visible
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Modem_Mode_Advanced_settings_Menu_Visible"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Is_Advanced_settings_Tools_Menu_Visible"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="824b0b5e-f975-447d-bb70-15eee3848d11"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Modem_Mode_Advanced_settings_Menu_Visible.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="9de77976-2aae-4326-b8b4-0f191ef564d5"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Validate_Default_IPv6_Firewall_Screen
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validate_Default_IPv6_Firewall_Screen"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Validate_Firewall_Page_Default_Settings_IPv6"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="bb9c50bd-9249-40ec-9804-b45daf6c4c37"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validate_Default_IPv6_Firewall_Screen.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

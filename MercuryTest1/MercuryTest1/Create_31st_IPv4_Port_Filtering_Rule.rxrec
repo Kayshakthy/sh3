@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="82a1e536-3a75-4795-af2c-f40d82416cb0"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Create_31st_IPv4_Port_Filtering_Rule
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Create_31st_IPv4_Port_Filtering_Rule"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		useDefaultLogging="False"
+		searchpropertyid="826a3a15-a0f9-4557-9221-7ae20a1dd081"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="afc92e6a-3002-4e51-bb06-b355b49957dd">
+				<path>
+					/dom[@domain='192.168.0.1']/body[@id='fm-0']//div[@id='mainpage']/?/?/div[@id='ipv4Container']/?/?/div[@id='IPv4PortFiltering']/div[@id='IPv4PortFiltering_card_0']/div[@id='IPv4PortFiltering']//input[@id='IP_Add']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Create_31st_IPv4_Port_Filtering_Rule.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

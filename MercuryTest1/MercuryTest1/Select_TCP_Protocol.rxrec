@@ -1,0 +1,2671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="55b023f2-2a41-4ad2-936a-361bdd65b5ec"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Select_TCP_Protocol
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Select_TCP_Protocol"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="aa539cf9-27ff-4c31-b4af-a8f3d0b15a50"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="36"
+		sy="552"
+		loc="12;14">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="c5c6901f-28de-4909-86fe-bdda243af9ca">
+				<element
+				role="radiobutton"
+				prefcap="radiobutton"
+				capabilities="javaelement"
+				flavor="java"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="24,538,135,25"
+				snapElem="">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						TCP
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Use TCP Protocol   (command line: default)
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						TCP
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						javax.swing.JRadioButton
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						javax.swing.JRadioButton
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						tcpRadioButton
+					</attribute>
+					<attribute
+					name="ranorexlibversion"
+					type="System.String">
+						5.4.1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						JRadioButton
+					</attribute>
+					<dynamicattribute
+					name="AccessibleContext"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Action"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="ActionCommand"
+					type="System.String"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="ActionListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ActionMap"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlignmentX"
+					type="System.Single"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlignmentY"
+					type="System.Single"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="AncestorListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Autoscrolls"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackgroundSet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="BaselineResizeBehavior"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Border"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderPainted"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Bounds"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="ChangeListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Class"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ColorModel"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ComponentCount"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ComponentListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ComponentOrientation"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="ComponentPopupMenu"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Components"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ContainerListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ContentAreaFilled"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Cursor"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="CursorSet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="DebugGraphicsOptions"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="DisabledIcon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="DisabledSelectedIcon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Displayable"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="DisplayedMnemonicIndex"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="DoubleBuffered"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="DropTarget"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Enabled"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="Focus"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="FocusCycleRoot"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="FocusCycleRootAncestor"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="FocusListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="FocusOwner"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="FocusPainted"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="FocusTraversable"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="FocusTraversalKeysEnabled"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="FocusTraversalPolicy"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="FocusTraversalPolicyProvider"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="FocusTraversalPolicySet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Font"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Foreground"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForegroundSet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Graphics"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="GraphicsConfiguration"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="hCode"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Height"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="HideActionText"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="HierarchyBoundsListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="HierarchyListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalTextPosition"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Icon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="IconTextGap"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="IgnoreRepaint"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="InheritsPopupMenu"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="InputContext"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="InputMap"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="InputMethodListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="InputMethodRequests"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="InputVerifier"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Insets"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ItemListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="KeyListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Label"
+					type="System.String"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Layout"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Lightweight"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Locale"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Location"
+					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="LocationOnScreen"
+					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ManagingFocus"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Margin"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaximumSize"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaximumSizeSet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="MinimumSize"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinimumSizeSet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Mnemonic"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Model"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="MouseListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="MouseMotionListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="MousePosition"
+					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="MouseWheelListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="MultiClickThreshhold"
+					type="System.Int64"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="NextFocusableComponent"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opaque"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="OptimizedDrawingEnabled"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="PaintingForPrint"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="PaintingTile"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Parent"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Peer"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="PreferredSize"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="PreferredSizeSet"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="PressedIcon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="PropertyChangeListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="RegisteredKeyStrokes"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="RequestFocusEnabled"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="RolloverEnabled"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="RolloverIcon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="RolloverSelectedIcon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="RootPane"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Selected"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedIcon"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedObjects"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Showing"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Size"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="Toolkit"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="ToolTipText"
+					type="System.String"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="TopLevelAncestor"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="TransferHandler"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="TreeLock"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="UI"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="UIClassID"
+					type="System.String"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Valid"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value.">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="ValidateRoot"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="VerifyInputWhenFocusTarget"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalTextPosition"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."
+					readonly="False"/>
+					<dynamicattribute
+					name="VetoableChangeListeners"
+					type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Visible"
+					type="System.Boolean"
+					description="A Java getter-/setter-style property value."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="VisibleRect"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Width"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="X"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicattribute
+					name="Y"
+					type="System.Int32"
+					description="A Java getter-/setter-style property value."/>
+					<dynamicaction
+					displayName="action"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="add"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addActionListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addAncestorListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addChangeListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addComponentListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addContainerListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addFocusListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addHierarchyBoundsListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addHierarchyListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addInputMethodListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addItemListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addKeyListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addMouseListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addMouseMotionListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addMouseWheelListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addNotify"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addPropertyChangeListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="addVetoableChangeListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="applyComponentOrientation"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="areFocusTraversalKeysSet"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="bounds"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="checkImage"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Int32"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="computeVisibleRect"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="contains"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="countComponents"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Int32"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="createImage"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="createToolTip"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="createVolatileImage"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="deliverEvent"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="disable"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="dispatchEvent"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="doClick"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="doLayout"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="enable"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="enableInputMethods"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="equals"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="findComponentAt"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="firePropertyChange"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.String"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Double"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Double"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getActionForKeyStroke"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getBaseline"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Int32"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getBounds"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getClientProperty"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getComponent"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getComponentAt"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getComponentZOrder"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Int32"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getConditionForKeyStroke"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Int32"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getFocusTraversalKeys"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getFontMetrics"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getInputMap"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getInsets"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getListeners"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getLocation"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getMousePosition"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getPopupLocation"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getPropertyChangeListeners"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getSize"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getToolTipLocation"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="getToolTipText"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.String"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="gotFocus"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="grabFocus"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="handleEvent"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="hide"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="imageUpdate"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg4"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg5"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg6"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="insets"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="inside"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="invalidate"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="isAncestorOf"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="isFocusCycleRoot"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="keyDown"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="keyUp"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="layout"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="list"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="locate"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="location"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="lostFocus"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="minimumSize"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="mouseDown"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="mouseDrag"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="mouseEnter"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="mouseExit"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="mouseMove"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="mouseUp"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="move"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="nextFocus"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="notify"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="notifyAll"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="paint"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="paintAll"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="paintComponents"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="paintImmediately"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="postEvent"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="preferredSize"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="prepareImage"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg4"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="print"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="printAll"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="printComponents"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="putClientProperty"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="registerKeyboardAction"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="remove"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeActionListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeAll"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeAncestorListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeChangeListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeComponentListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeContainerListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeFocusListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeHierarchyBoundsListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeHierarchyListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeInputMethodListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeItemListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeKeyListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeMouseListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeMouseMotionListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeMouseWheelListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeNotify"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removePropertyChangeListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.String"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="removeVetoableChangeListener"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="repaint"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int64"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg4"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg5"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="requestDefaultFocus"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="requestFocus"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="requestFocusInWindow"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="resetKeyboardActions"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="reshape"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg4"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="resize"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="revalidate"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="scrollRectToVisible"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="setBounds"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg3"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg4"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="setComponentZOrder"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="setFocusTraversalKeys"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="setInputMap"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="setLocation"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="setSize"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int32"/>
+						<argument
+						displayName="arg2"
+						description="Argument value."
+						type="System.Int32"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="show"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="size"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="toString"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.String"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="transferFocus"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="transferFocusBackward"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="transferFocusDownCycle"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="transferFocusUpCycle"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="unregisterKeyboardAction"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="update"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="Ranorex.Plugin.JavaObjectWrapper, Ranorex.Plugin.Java, Culture=neutral, PublicKeyToken=b798506b574ebc9a"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="updateUI"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="validate"
+					description="A Java object method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="wait"
+					description="A Java object method.">
+						<argument
+						displayName="arg1"
+						description="Argument value."
+						type="System.Int64"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'^JPerf\ 2\.0\.2\ -\ Network\ per']/container[@type='JScrollPane']/container[@name='viewport']//container[@name='transportPanel']/container[@name='tcpPanel']/radiobutton[@name='tcpRadioButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="12b3a22b-7638-4054-a0d7-dc18a59a9747">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACiAUoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDbqN7d
+zKJoJBHJt2tuXcGH0yP51JWXBFcXd1cqt3LEI3wACT3Pv7U5u1jSnTUrtuyReazeQTeZMC0sXlkh
+MAdecZ9/0pGsWLsBNiJ2V3TbySMdDngcDtUP9nXP/QRl/X/Gj+zrn/oIy/r/AI1F32L9nT/n/Bky
+WTLIv77MSSGRU28gnPfPI5PaojpQkD+a0W5h1jh2gnIOWGTu5H6mk/s65/6CMv6/40f2dc/9BGX9
+f8aLvsHs6f8AP+DLdpb/AGdGGIhuOf3Uewflk1GtmyyAmUFFmMqjZzznIzn39Kg/s65/6CMv6/40
+f2dc/wDQRl/X/Gi77B7On/P+DHyaYr4bMbMHc/vYt64Y5xjP61LcRFdLlhQAkRMoCLjJx2Aqv/Z1
+z/0EZf1/xo/s65/6CMv6/wCNF32Dkp3vz/gyUWTyKWmlBchANqYACnOMZPNOuLR5ZHaObyxKmyQF
+c5HPTng8n1qD+zrn/oIy/r/jR/Z1z/0EZf1/xou+wvZ0/wCf8GTPYszSbJQquVYDbkqy4wc55HHT
+9aPsTn94Zh9o8zzA+z5RxjG3PTHvUP8AZ1z/ANBGX9f8aP7Ouf8AoIy/r/jRd9h+zp/z/gyWSymk
+3E3IBlTZLiPqMn7vPBwSO9TwQCF5WDZDkEDHTAA/pVP+zrn/AKCMv6/40f2dc/8AQRl/X/Gi77B7
+On/P+DJfsUgOUnUFZTJHlM4JzkHnkc+1WLaHyItpbexYszYxkk5NUv7Ouf8AoIy/r/jR/Z1z/wBB
+GX9f8aLvsHs6f8/4MkjsZY9mLhcRxskY8voDjrzz0qM6ShU58gNuDBVhxHxkcrnnr6+npUMsVxaX
+dqrXcsgkcAgkjuPf3rXx7mmncmpDlSad0yO2h8iER4Qck/u02L+AqWkx7mjHuaZkLRSY9zRj3NAC
+0UmPc0Y9zQAtFJj3NGPc0ALRSY9zRj3NAC0UmPc0Y9zQAtFJj3NGPc0ALRSY9zRj3NAC0UmPc0Y9
+zQAtFJj3NByB1NAC0UUUARVS0r/j7vv+un9Wq7VLSv8Aj7vv+un9Wonujan/AA5/L8y9GiyqHkG7
+PQHoBRIixKXjG3HUDoRRG6xKEkO3HQnoRWba3d4ViivdpjuEUxz4xkkAlSB35IHTOK06+RzdPMv3
+c0sELSxxJIqKWbc5U8enBpjXMscStJCnmOwWNEkzkn1JAxUt1GZrWWJSAzoVGenIplxA7xxGNgJY
+iGXPQ8YwfwNZljJLm5j2K1vHvdwq4lO3oT1257elTW8xmV9yhXRirANkZ9j+NQS2810YxcxwbEkD
+FMlwRgjuB6jtVpESNAkaqijoqjAFADqKKKACiiigAooooAKKKKACiiigDN1P/j9sf+un9VrSrN1P
+/j9sf+un9VrSqVuzep/Dh8/zCiiiqMAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACkP
+Q0tIehoAWiiigCKsyyuoba7vPOfbuk44J7n0rTpotrdss0EZJPJKCiabs0aUpximpdSL+1LL/nt/
+46f8KfawJc6HBBKMo9uoPt8o5+tAt4CAfssPP+yP8KzY9SuIraxWGGZYIo0M0jQthlwM4Ptyc8dP
+zSv1FPk+xf5k63C6Q0dndMzRHPky9Tj0Yeo4HHHTpVj+1LL/AJ7f+On/AAqoht5Z5fP+1TozLNF9
+912NyBtXjgg8EVZ3WP8Az6P/AOAj/wDxNDv0HDk+1cd/all/z2/8dP8AhR/all/z2/8AHT/hTd1j
+/wA+j/8AgI//AMTRusf+fR//AAEf/wCJpe8Xej2f4f5Dv7Usv+e3/jp/wo/tSy/57f8Ajp/wpu6x
+/wCfR/8AwEf/AOJo3WP/AD6P/wCAj/8AxNHvBej2f4f5Dv7Usv8Ant/46f8ACj+1LL/nt/46f8Kb
+usf+fR//AAEf/wCJo3WP/Po//gI//wATR7wXo9n+H+Q7+1LL/nt/46f8KP7Usv8Ant/46f8ACm7r
+H/n0f/wEf/4mjdY/8+j/APgI/wD8TR7wXo9n+H+Q7+1LL/nt/wCOn/Cj+1LL/nt/46f8Kbusf+fR
+/wDwEf8A+Jo3WP8Az6P/AOAj/wDxNHvBej2f4f5Dv7Usv+e3/jp/wo/tSy/57f8Ajp/wpu6x/wCf
+R/8AwEf/AOJo3WP/AD6P/wCAj/8AxNHvBej2f4f5Fa7uobm9s/Jfdtk54I7j1rXqkHslYMtrICDk
+EWj8f+O0/wC1RFyWS5xgYxBIPX2oS7k1Jxkko9C1RVb7VB/zzuv+/Mv+FH2qD/nndf8AfmX/AAqj
+Is0VW+1Qf887r/vzL/hR9qg/553X/fmX/CgCzRVb7VB/zzuv+/Mv+FH2qD/nndf9+Zf8KALNFVft
+UH/PO6/78y/4U03MYXOy6Jx0EEv+FAFyiqf2mL+7df8AfiX/AApyXkYRQyXGcc/6PJ/hQBaoqmLm
+I5LJdZyf+WMvr9KX7TD/AHLr/vzL/hQBboqp9ph/uXX/AH5l/wAKPtMP9y6/78y/4UAW6KqfaYf7
+l1/35l/wo+0w/wBy6/78y/4UAW6KqfaYf7l1/wB+Zf8ACj7TD/cuv+/Mv+FAFukPQ1VW7jVz8lzj
+A6wSH+lSxXEcxdU3hlAJDxspwc46gehoAmooooAip6dKZT06VUhIan3F+lQWzR/2RZxSqWWaJIyB
+7rU4RgANw49qpodmk6fKfuRiNmPoNuM/rWbGT2ltaWFwYbaIo0q7idxIIBx3PvVys2aWK6nkeKce
+UluytMhyFJI7jvxmqrFfsoWJbaOATASyRruicY6kAjjOM8/jSGblVPtrfaPJ+xz78buqdM4z96k0
+xESKQxTRSRl8gQrtReBkDk0p/wCQwP8Ar3P/AKFS6i6D3u8SMkUEsxT7xTGAfTJIyfpTZb5Y3ceR
+MyxgF3UDCg89M5/SobW4htBJBcyrFIJGb5zjeCxII9aQxS3F3dokqxxuEDfJliCOxzx+RoGXJp1h
+tzPguoAOF6nNJBciWRomjkikUA7XxyPUYJFRaiu3TXVMDAAHtyKhvLdxbyyzyh5G2JlF2hRuHTkn
+9aBGjTXkRHRWOC5wox1OM/0rOljtIrzy7pIUthGPKDgBN2Tu68Z6f5zURjh2Wb3KJ5YlcK0o6J82
+0En8MfhTsBsUVjSeQYrjzgv9ob28vP8ArM5+Tb3xjHTjr71N/oxvZhqHl+ZlfJEnpgfd9856c9KL
+DNOmJKryyRgHMeM/jWTJ5BiuPOC/2hvby8/6zOfk298Yx046+9X7bP226z1+TP5UgLVMMoEyxAEs
+RuOOij3p9UZjKGvhD/rvLBT16HH65oAvUVkt9j+xMbHaWwvnGP7+3I3ZxznGevPWlxbb5DYeX5Xk
+P5nlY25429OM9aGCNWisqOzt/Ps18pSHgJcEcORtxu9ep60kMSSizikUNGrSqFPIwCQB9KbQjWor
+HjgijhWVEAkS72K3dV342g+mO1MlkR7xZFEEcouApUKTLjOMk54BHbGOlFgeht0yeVYIWlcEqoyc
+dayniRYnuAo81bvh+4G8Age1R3P2Y21z5+37b5jf7+M8Y77cY9utCQM2Z5VgiaRwSB6U4MS7LsYA
+Ywxxg/1qvqX/AB4yfh/MVUvBu+2g5GWiHBx3FIZqUVj3SG3e7jtVEaFI2YKp4G4hjgewp9tHaKJG
+M9u8JKDbboVUNng8E85x/WnYDVpiyq00kQB3IAT6c/8A6qrakVCQ+b/x7+YPNz0xg4z7ZxVF9gS9
++wkCP93koCVC/wAWAO2M9PekBsTSLDC8r8KgLH6CiJzJGGaNoyf4WxkfkTWO0MBsL0xy20qeVnZB
+HhVYZwepGf8A61PvxAGFuY7aMJFlPMTdnOeEUEc+49qYGvUZmUTmI5yE357YzWdBcLE8clw+DJaJ
+tLdXIzkD1PI496LNFkjhR1DA2S/KRnNJq39eoI0FuI2MWM7ZRlGxweM4/Kof+YlP/wBcI/5vVa28
+n+y7RbfYCXjyEx94YLZ98A5qz/zEp/8ArhH/ADeqS1EWKKKKoCKnp0plPTpVSEh1VLb7bb2sUPkW
+7eWgTPnMM4GP7lSoq7F+UdPSh1XY3yjp6VNhiebe/wDPvb/9/wBv/iKPNvf+fe3/AO/7f/EU+Z3j
+QuqqwUEnLY/pTTK6oCyDcxwqq2c/pSsgE829/wCfe3/7/t/8RR5t7/z72/8A3/b/AOIpWllXaDEu
+5mwPn46H29qdHIXVvlAZSQQDkZ+tFkAzzb3/AJ97f/v+3/xFHm3v/Pvb/wDf9v8A4igXAPlfL/rB
+k8/dpRcDJ3YCjdznsOtFkAnm3v8Az72//f8Ab/4ijzb3/n3t/wDv+3/xFPE8ZVm3cKMnIIpi3Cku
+WyAGCj5Tk8enWiyAPNvf+fe3/wC/7f8AxFHm3v8Az72//f8Ab/4inieMjIbjbu6dqcrqxABzkbh9
+KLICLzb3/n3t/wDv+3/xFHm3v/Pvb/8Af9v/AIilMrl3WNFbZ1y2D/KnGZVLA5+U4+VSe2ewosgG
+ebe/8+9v/wB/2/8AiKPNvf8An3t/+/7f/EU77RFtVtxwwyPlPT1PpUtFkBB5t7/z72//AH/b/wCI
+qNnu2mDCzhZ0HUXBHB/4Dz0q3SL/AKx/90fzNFkBB52of8+UP/gR/wDY0edqH/PlD/4Ef/Y1Yoos
+gK/nah/z5Q/+BH/2NHnah/z5Q/8AgR/9jViiiyAr+dqH/PlD/wCBH/2NHnah/wA+UP8A4Ef/AGNW
+KgS4LysgEY2kg/P83HfGKLIBPO1D/nyh/wDAj/7Gm/ab3/n0h/8AAj/7GpIZxMTt2bfZsn8R2ptw
+JXhCwMik9WJ5H0osgG/ab3/n0h/8CP8A7GnLPesoYW0HIz/rz/8AEU+IyeUBMULg9VPWnxf6pP8A
+dFFkBX+03xzizhPOP9ef/iaX7Rff8+cP/gQf/iakL+XEWxn58fm2KaZ2wpRAQzbVy2M8delFkA37
+Rff8+cP/AIEH/wCJo+0X3/PnD/4EH/4mpI51cfN8rAEkfQ4pqXKMXzkBe5B54+lFkA37Rff8+cP/
+AIEH/wCJo+0X3/PnD/4EH/4mpfPj27snrjG05z9OtORg67lzj3GKLICD7Rff8+cP/gQf/iaPtF9/
+z5w/+BB/+JqwzBRk9KQsBjnr0osgKwku3lDNaQh1HGbg8Z/4DToknNxLNMkabo1QBHLdCx7gf3qm
+H+tb/dH9acehosAtFFFMCKnp0plPTpVSEiNGXYvzDp60Oy7G+YdPWpqKkYyZS8LoOrKQM02SNmVN
+pAdDkZ6GpaKAIHjeYp5qx7VbO3Oc8H2qZVVVCqAAOgApaKAKwt3CyAEZJ+T25z/OhrZjGqgjIjZT
+9TVmigCvJAzMWBGcLjPqDmk8mXeZPk3b9wXJx0x1xVmigCt9mYheVyWJf6E5wKkhiKO5JBzwvsP8
+mpaKAK88LSkjy4z2VyfmX9P60kkMp3hdpV2BIJxkYAx0qzRQBVkgdm3bV5XaVEjAD8utWQMAD0pa
+KACkX/WP/uj+ZpaaVO7cGK5GOMUAOopMP/z0b8h/hRh/+ejfkP8ACgBaKTD/APPRvyH+FGH/AOej
+fkP8KAFqBo5JJF3hAqEkEHk/4VNh/wDno35D/CjD/wDPRvyH+FAEEMLoybtuI1KjHU/X8qLgypCG
+gVGI6qRyfpU+G/56N+Q/wpvl/wC2fyH+FADYhJ5QMwQOT0UdKfF/qk/3RSeX/tt+Q/wpyjaoUdhi
+gCF4/NgKccv3/wB6mNbvsVMI6I2VDHqMHg8VPsIzh2HOe3+FLsP/AD0b9P8ACgCq8JCRRkgMzEYH
+QKeoFPkgdjIAQFYhgckHIxx+lT7D/wA9G/T/AAo2H/no36f4UAQeQ237i5LZ5kbPT+91qaJWSMBz
+k/XNLsP/AD0b9P8ACjYf+ejfp/hQAvWmpGqtnr6e1LsP/PRv0/wo2H/no36f4UAIP9a3+6P6049D
+SKuCTuJJ9aU9DQAtFFFAEVPTpTKenSqkJDQ7EA7Rz70F2AJ2jj3oT7i/Sh/uN9KkZJRVe8TeIlBw
+d/B9Dg4qHefNE77l/dtwOoAx/XNAF6iqYkmUOHcAqoYcg/hwBU8Dl4y7NySeP7vtQBLRVSNBE6bo
+0YnOJFPJ4701Z5hEZSCQULfNtwD7Y5/OgC7RVR3lQsomLHCEEgcZOKUvKpf96SEdRyByDjrx70AW
+qKqxyytLnDbd5Ug7cAfzzUbPI1v80hPmRMx4HGMUAXqKj2n7PgyEfL9844quQIlcGGNH8piGTkH6
+jFAFyiqwLtMAkjFVGXGBj6DiktpJXKs27a6k87cA+2OfzoAtU3aGkbOeAOhI9adSL/rH/wB0fzNA
+BsT0b/vs0bE9G/77NLRQAmxPRv8Avs0bE9G/77NLRQAmxPRv++zRsT0b/vs0tFACbF/2v++zUMrJ
+DF5kjED/AHjz7daWBQss4GfvDqc9hSS+VhfP8r/Z34/rQA5NjoHRyynoQx/xp8ZzEpPoKji2bP3P
+l7c87PWpIv8AVJ/uigBqqGBJLdT/ABH1pfLHq3/fRqGfP2Y467+M/wC9URAeOP5FZzJ84f1wetAF
+vyx6t/30aPLHq3/fRqokrQxDHQ7lC9g2eAPalzJF5zb2Ztyg8DuBzQBa8serf99Gjyx6t/30ag3T
+7SvzZ3dyu4jH5VNA26IEkk8j5hg9fagBfLHq3/fRo8serf8AfRpWBKkKcGmBncgY24+9QA5RiRhk
+4wOpz6049DTR/rW/3R/WnHoaAFooooAip6dKZT06VUhIaEYADcOPagoxBG4c+1SUVIxCAcZAOOR7
+UFQTkgE9OlLRQAxYYl+7Gg78KKcFAJIABPXjrS0UAMSKNG3JGin1CgUeUgLFFVWYcsFGafRQBDFb
+qhYsEOccKmBx7VKUU5yo5OTx1paKAG+Wm/fsXf8A3sc0bFGPlHAwOOgp1FADQiKmwKAvoBxSLFGo
+IWNFDdQFHNPooAZ5MW7d5SbuudozSrGisWVFDHqQOTTqKACm7gsjZzyB0BPrTqKAE3p6t/3waN6e
+rf8AfBpaKAE3p6t/3waN6erf98GlooATenq3/fBo3p6t/wB8GlooAjVYUJZE2k9xGR/SmSqk0Xly
+KSP908e/Sp6KAIk2IgREKqOgCn/CnxjESg+gp1FAEQK7SrKT8xP3Se9DLC2d0W7PXMZ5/SpaKAIW
+CHywAVVDnaENKfLLFjHkkYJ2HkflUtFAEOyDbt8obc5x5fGfyp4ZFACqwA6AIafRQAzzB6N/3yaP
+MHo3/fJp9FADFOZGODjA6jHrTj0NLSHoaAFooooAip6dKZT06VUhIjRV2L8o6elDquxvlHT0oRl2
+L8w6etDsuxvmHT1qRjpneNC6qrBQSctj+lNMrqgLINzHCqrZz+lPmUvC6DqykDNNkjZlTaQHQ5Ge
+hoARpZV2gxLuZsD5+Oh9vanxSFw2QAVODg5FRvG8xTzVj2q2duc54PtUyqFXaoCgdABQBDHc70jb
+Zgu2CM9OM09Jo5GwpyevQjP09ahFswEPI+QYf34P+NOhhdWj37cRqVGO/wDh0oAe8riUokYbChj8
+2D+HHtR9oi2q244YbuhOB7+lI6S+cXj2fMoX5ieOvt71EbQrgJ8w2BSC5Xp9OtAEwmw0gYHCsANq
+k9s9qVZo26N2z07VE9uxJxtZSwO0nggDHNRtAVSOP5VZnYYXptPJFAFxSGUMOhGRS0UUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUh6GlpD0NAC0UUUARU9CAOtM
+p65xVSEhcj1FGR6ijn1H5Uc+o/KpGGR6ijI9RRz6j8qOfUflQAZHqKMj1FHPqPyo59R+VABkeooy
+PUUc+o/Kjn1H5UAGR6ijI9RRz6j8qOfUflQAZHqKMj1FHPqPyo59R+VABkeooyPUUc+o/Kjn1H5U
+AGR6ijI9RRz6j8qOfUflQAZHqKMj1FHPqPyo59R+VABkeooyPUUc+o/Kjn1H5UAGR6ijI9RRz6j8
+qOfUflQAZHqKMj1FHPqPyo59R+VABkeooyPUUc+o/Kjn1H5UAGR6ijI9RRz6j8qOfUflQAZHqKMj
+1FHPqPyo59R+VABkeooyPUUc+o/Kjn1H5UAGR6ijI9RRz6j8qOfUflQAZHqKMj1FHPqPyo59R+VA
+BkeooJGDyKOfUflQcgdqAFooooAip6dKKKqQkV9QdkgyjFT7HFGnuzwZdix9zmiipGWqKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigApD0NFFAC0UUUAf/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Select_TCP_Protocol.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

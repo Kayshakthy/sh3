@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="7e51d047-28e7-469c-af24-287812ff6341"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Check_Firewall_Options
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Check_Firewall_Options"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="IP_Flood_Detect"
+		id="d664100b-dc06-4209-8234-a39e63f56558">
+		</var>
+		<var
+		name="Firewall_Protection"
+		id="aaf5a42f-3c07-4d16-ba3c-2a8cc8e47a77">
+		</var>
+		<var
+		name="Block_Fragmented_IP_Pkts"
+		id="0e85f6b7-e8f4-45ce-a238-ff1da5f3bd2d">
+		</var>
+		<var
+		name="Port_Scan"
+		id="66e05467-3cda-4bd7-909b-bacc13d4c09c">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_firewallOptions"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="7fa1c073-409d-43d1-83da-fd7a94750deb">
+				<argument
+				variable="IP_Flood_Detect"
+				argname="argument1"
+				id="0b5fa904-9288-4ba4-8fa1-39f2e249b86b">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Check_Firewall_Options.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

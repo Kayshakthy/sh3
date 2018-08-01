@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1654d24707d06e68"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sakthivel"
+		host="RANTEST"
+		rxversion="5.4.2.25689"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="2.0.50727.8009"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="19/01/2016 16:34:01"
+		timestampiso="2016-01-19T16:34:01"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.015"
+			timeRelativeToTestModuleStartTime="00:00.015"
+			timeWallClock="16:34:01"
+			time="00:00.015"
+			level="Error"
+			category="User">
+			<message>
+				Unexpected exception occurred: Ranorex.RanorexException: Could not find test suite file 'C:\Work\Ranorex\RanorexStudio Projects\MercuryTest1\MercuryTest1\obj\x86\Debug\ArrisTesting.rxtst'.<br/>   at Ranorex.Core.Testing.TestSuiteRunner.GetTestSuiteXml(Type containerType, String fileName)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs, String testSuiteXml)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs)<br/>   at MercuryTest1.Program.Main(String[] args) in c:\Work\Ranorex\RanorexStudio Projects\MercuryTest1\MercuryTest1\Program.cs:line 39
+			</message>
+			<metainfo
+				codefile="c:\Work\Ranorex\RanorexStudio Projects\MercuryTest1\MercuryTest1\Program.cs"
+				codeline="43"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

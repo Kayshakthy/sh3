@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="99312a03-4ae9-41d9-8359-49ebef45f4ec"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Select_DHCP_Rules_By_RowNumber
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Select_DHCP_Rules_By_RowNumber"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="DHCP_Table_RowNumber"
+		id="f2f8b969-5772-49ee-97de-67649ace64b7">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Select_DHCP_Rule_By_RowNumber"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="21679ec3-840c-4bd6-9d9b-75e8e48a1212">
+				<argument
+				variable="DHCP_Table_RowNumber"
+				argname="argument1"
+				id="f845046c-ab84-4a3f-823c-eccdde60213e">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Select_DHCP_Rules_By_RowNumber.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="af7c813a-5eb7-455e-8ef8-250f86ee3e5f"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Print_Test_Environment_Details
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Print_Test_Environment_Details"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="modemEnv"
+		id="f2948160-b543-4d68-abff-1f2875375183">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="printTestDetails"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="e10762d1-3ba7-4f1c-b200-644c9af368dd">
+				<argument
+				variable="modemEnv"
+				argname="argument1"
+				id="d6143ce7-d45e-4e56-9fc2-b42a58e8ed86">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Print_Test_Environment_Details.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="b521cd0e-4dc9-4374-a9cc-307e37a62e02"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_Device_AccessMode
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_Device_AccessMode"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Device_Access_Mode"
+		id="fbc40214-d151-44a2-9900-6867f8d75e98">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_Devices_AccessMode"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="fd29adaa-2e97-4003-ac17-b22b29affbd7">
+				<argument
+				variable="Device_Access_Mode"
+				argname="argument1"
+				id="7ba7d6b9-f790-4853-9072-beab8789178d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_Device_AccessMode.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

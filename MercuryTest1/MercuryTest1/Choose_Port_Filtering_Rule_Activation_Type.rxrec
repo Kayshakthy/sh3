@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="a165b8b9-15e6-4093-b91d-4a6d27c8d31f"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_Port_Filtering_Rule_Activation_Type
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_Port_Filtering_Rule_Activation_Type"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Port_Filter_Active_Type"
+		id="a0827d80-ca0d-425f-be44-49c38228a68e">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_Port_Active_Type"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="89445e80-6e68-4aa3-8399-8e6e451b39eb">
+				<argument
+				variable="Port_Filter_Active_Type"
+				argname="argument1"
+				id="17ccfe6e-e996-438c-9e40-5a564bdc18ae">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_Port_Filtering_Rule_Activation_Type.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

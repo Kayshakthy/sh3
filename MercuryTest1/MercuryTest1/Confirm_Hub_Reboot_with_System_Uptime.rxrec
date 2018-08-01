@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="e01cdaa7-328d-4531-8103-e64bd0fa3d19"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Confirm_Hub_Reboot_with_System_Uptime
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Confirm_Hub_Reboot_with_System_Uptime"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Verify_System_Uptime_Info"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="41b9fa5b-4595-4c69-99e9-238e13934d9e"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Confirm_Hub_Reboot_with_System_Uptime.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

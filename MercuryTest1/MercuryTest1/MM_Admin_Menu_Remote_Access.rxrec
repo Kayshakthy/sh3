@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="a1df6481-97a7-4278-a9a3-469701c459ea"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		MM_Admin_Menu_Remote_Access
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MM_Admin_Menu_Remote_Access"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Is_MM_Admin_Menu_Remote_Access_Visible"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="613ae66c-cfb6-4103-9ed9-c964ce08587d"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MM_Admin_Menu_Remote_Access.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

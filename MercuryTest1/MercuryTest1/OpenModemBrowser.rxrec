@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="31b0e038-3e6b-4638-87b6-966adc3074a3"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		OpenModemBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenModemBrowser"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="ModemUrl"
+		id="13267387-5aa7-405d-acd7-9f45977e57a5">
+		</var>
+		<var
+		name="BrowserName"
+		id="2b0a687a-ed39-47ed-83df-e878416e33e0">
+			IE
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		useDefaultLogging="False"
+		browser="IE"
+		args=""
+		maximized="True"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings>
+				<binding
+				target="Url"
+				variable="ModemUrl"/>
+				<binding
+				target="BrowserName"
+				variable="BrowserName"/>
+			</bindings>
+			<url>
+				http://192.168.100.1
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenModemBrowser.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

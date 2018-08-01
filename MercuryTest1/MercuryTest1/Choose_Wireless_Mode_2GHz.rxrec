@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="5888b92a-ae01-4ebe-a254-cff0d3112ece"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_Wireless_Mode_2GHz
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_Wireless_Mode_2GHz"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Wireless_Mode_2GHz"
+		id="e56dff8b-4147-4a46-bb57-9e230a35fa8a">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Wireless_Mode__Selection_2GHz"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="b0a5d3ff-dcd5-43f2-a196-837e3594dfdb">
+				<argument
+				variable="Wireless_Mode_2GHz"
+				argname="argument1"
+				id="5894074c-f1b6-46a1-9ed5-233cb8b5b9a9">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_Wireless_Mode_2GHz.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

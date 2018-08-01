@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="70abafe2-b69a-4684-a62d-f458f20445ec"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Choose_All_Port_Trigger_Rules
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Choose_All_Port_Trigger_Rules"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="False"
+		optional="False"
+		methodname="Choose_all_port_trigger_rules_to_delete"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="717ed943-d4b9-4cf9-bf1c-c39a0bbc681a"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_all_port_triggering_rules_to_delete"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d8858182-550d-4a49-8e82-5fd8dd4468fb"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Choose_All_Port_Trigger_Rules.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

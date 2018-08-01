@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="55c64531-3fd6-4c76-9b74-a3d23923f812"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Select_All_IP_Port_Filter_To_Enable
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Select_All_IP_Port_Filter_To_Enable"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Select_Ipv4_Port_Filter_To_Enable"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="11953c74-a0a4-422f-b8e3-981443a7490a"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Select_All_IP_Port_Filter_To_Enable.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

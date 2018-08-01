@@ -1,0 +1,2352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="cc390196-5351-4ce0-8bfa-179d16b9b56e"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Generate_WPS_PIN
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Generate_WPS_PIN"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		useDefaultLogging="False"
+		searchpropertyid="ad48e98f-7ae3-453c-b107-bd8af8f175f7"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="815"
+		sy="771"
+		loc="103;23">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="ce809380-e03d-4be1-a90f-c72283c4830a">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="712,748,292,57"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						submitNoBg
+					</attribute>
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						GenerateNewWPSPin
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Generate new AP WPS PIN
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2147483647
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						6
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Generate new AP WPS PIN
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="accesskey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-atomic"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-autocomplete"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-dropeffect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-grabbed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-label"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiline"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-orientation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-sort"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuetext"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="border"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="cache"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dynsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hidefocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="indeterminate"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="loop"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="lowsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="spellcheck"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="start"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="usemap"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vrml"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-acceleratorkey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-aria-flowfrom"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='192.168.0.1']//input[#'GenerateNewWPSPin']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="565d2b6f-c168-4a4c-9cdc-5ce86ced9cce">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAB/AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAMzxB/x4p/10
+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
+P/oWKvUUXDmGQxiKFIx/CoFV4LYPH5kvmq8hLECRlxnoMA+mKt0UriuyhPCyQXUMauyum5eS3PQj
+J+gq/RRTuDdxGAZSCMgjBqpZrIXzIrL5SCMEjrzyf0FXKKQJ6FOGNxciMqwSJmYHHBz0x+ZqWFWF
+3cMQQGK4PrxU9FO42xksnlgHY7DvtGcVCD511G6I6hAdzMpXOe3PNWaKQkyC9Vntiqgk7k4H+8Kn
+oooC+lig8TmyulCNuaRiBjqM1YuVYFJowS0Z5A7qeo/r+FT0U7j5iK0UrZwKwIIjUEHtxUtFFIlh
+WR4g/wBVF/vVr1keIP8AVRf71TP4Wb4b+KjYoooqjAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAzPEH/Hin/XQfyNXrf/AFCf7oqj4g/48U/66D+RqFdaiRQq
+xuQOmcCoulJ3Ov2cp0o8q7mxRWR/bsf/ADxb86P7dj/54t+dPnj3M/q1Xsa9FZH9ux/88W/Oj+3Y
+/wDni350c8e4fVqvY16KyP7dj/54t+dH9ux/88W/Ojnj3D6tV7GvRWR/bsf/ADxb86P7dj/54t+d
+HPHuH1ar2Neisj+3Y/8Ani350f27H/zxb86OePcPq1Xsa9V72B540MThJYnDoSOCRkYPtyaof27H
+/wA8W/Oj+3Y/+eLfnRzx7h9Wq9ia21mGRWFyptpVPKSEA/rTBdNqdzFHFDItvG/mGUjh9p4APTr/
+ACNM/t2P/ni350f27H/zxb86OePcPq1Xsa9FZH9ux/8APFvzo/t2P/ni350c8e4fVqvY16KyP7dj
+/wCeLfnR/bsf/PFvzo549w+rVexr0Vkf27H/AM8W/Oj+3Y/+eLfnRzx7h9Wq9jXorI/t2P8A54t+
+dH9ux/8APFvzo549w+rVexr0Vkf27H/zxb86P7dj/wCeLfnRzx7h9Wq9jXorI/t2P/ni350f27H/
+AM8W/Ojnj3D6tV7GvRWR/bsf/PFvzo/t2P8A54t+dHPHuH1ar2Neisj+3Y/+eLfnR/bsf/PFvzo5
+49w+rVexr0Vkf27H/wA8W/Oj+3Y/+eLfnRzx7h9Wq9jXorI/t2P/AJ4t+dH9ux/88W/Ojnj3D6tV
+7GvWR4g/1UX+9R/bsf8Azxb86qajfpeRKArKynPI4xUykrG1ChUjUTaOjooorQ4gooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Z
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="45dfb77a-93c7-4efb-be8d-d44502199116"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="ce809380-e03d-4be1-a90f-c72283c4830a">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="686,542,295,64"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						submitNoBg
+					</attribute>
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						GenerateNewWPSPin
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2147483647
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						6
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="accesskey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-atomic"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-autocomplete"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-dropeffect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-grabbed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-label"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiline"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-orientation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-sort"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuetext"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="border"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="cache"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dynsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hidefocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="hspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="indeterminate"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="loop"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					name="lowsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="spellcheck"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="start"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						fileopen
+					</dynamicattribute>
+					<dynamicattribute
+					name="usemap"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vrml"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="x-ms-acceleratorkey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-aria-flowfrom"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='192.168.0.1']//input[#'GenerateNewWPSPin']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e0416681-4749-4502-a724-048888ede915">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACMAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDot49G
+/KlDZPQj6ilooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+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
+PxF/30KPttr/AM/EX/fQqL+ybH/nh/4+3+NH9k2P/PD/AMfb/Gj3g94l+22v/PxF/wB9Cj7ba/8A
+PxF/30Ki/smx/wCeH/j7f40f2TY/88P/AB9v8aPeD3iX7ba/8/EX/fQo+22v/PxF/wB9Cov7Jsf+
+eH/j7f40f2TY/wDPD/x9v8aPeD3iX7ba/wDPxF/30KPttr/z8Rf99Cov7Jsf+eH/AI+3+NH9k2P/
+ADw/8fb/ABo94PeJfttr/wA/EX/fQo+22v8Az8Rf99Cov7Jsf+eH/j7f40f2TY/88P8Ax9v8aPeD
+3iX7ba/8/EX/AH0KPttr/wA/EX/fQqL+ybH/AJ4f+Pt/jR/ZNj/zw/8AH2/xo94PeJfttr/z8Rf9
+9Cj7ba/8/EX/AH0Ki/smx/54f+Pt/jR/ZNj/AM8P/H2/xo94PeJfttr/AM/EX/fQo+22v/PxF/30
+Ki/smx/54f8Aj7f40f2TY/8APD/x9v8AGj3g94l+22v/AD8Rf99Cj7ba/wDPxF/30Ki/smx/54f+
+Pt/jR/ZNj/zw/wDH2/xo94PeJfttr/z8Rf8AfQo+22v/AD8Rf99Cov7Jsf8Anh/4+3+NH9k2P/PD
+/wAfb/Gj3g94l+22v/PxF/30KPttr/z8Rf8AfQqL+ybH/nh/4+3+NH9k2P8Azw/8fb/Gj3g94l+2
+2v8Az8Rf99Cj7ba/8/EX/fQqL+ybH/nh/wCPt/jR/ZNj/wA8P/H2/wAaPeD3iX7ba/8APxF/30KP
+ttr/AM/EX/fQqL+ybH/nh/4+3+NH9k2P/PD/AMfb/Gj3g94l+22v/PxF/wB9Cj7ba/8APxF/30Ki
+/smx/wCeH/j7f40f2TY/88P/AB9v8aPeD3iX7ba/8/EX/fQo+22v/PxF/wB9Cov7Jsf+eH/j7f40
+f2TY/wDPD/x9v8aPeD3iX7ba/wDPxF/30Kq311bywMqTRkhG/iHoal/smx/54f8Aj7f40f2TY/8A
+PD/x9v8AGj3g94NH/wCQXD/wL/0I1dpkMSQRCOJdqL0Gc0+mlZWKirKwUUUUxhRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+			<matchname>
+				Id
+			</matchname>
+			<matchvalue>
+				GenerateNewWPSPin
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="d6c2894e-3947-4db3-bcf3-61d68a9ae491"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="ce809380-e03d-4be1-a90f-c72283c4830a">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="686,542,295,64"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						submitNoBg
+					</attribute>
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						GenerateNewWPSPin
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2147483647
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						6
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="accesskey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-atomic"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-autocomplete"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-dropeffect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-grabbed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-label"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiline"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-orientation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-sort"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuetext"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="border"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="cache"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dynsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hidefocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="hspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="indeterminate"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="loop"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					name="lowsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="spellcheck"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="start"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						fileopen
+					</dynamicattribute>
+					<dynamicattribute
+					name="usemap"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vrml"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="x-ms-acceleratorkey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-aria-flowfrom"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='192.168.0.1']//input[#'GenerateNewWPSPin']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				Generate new WPS PIN
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="32e49a86-59a3-476d-8af9-2ea5e84ead48"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="ce809380-e03d-4be1-a90f-c72283c4830a">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="686,542,295,64"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						submitNoBg
+					</attribute>
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						GenerateNewWPSPin
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2147483647
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						6
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="accesskey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-atomic"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-autocomplete"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-dropeffect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-grabbed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-label"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiline"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-orientation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="aria-sort"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuetext"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="border"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="cache"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dynsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hidefocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="hspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="indeterminate"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="loop"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					name="lowsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="spellcheck"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="start"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						fileopen
+					</dynamicattribute>
+					<dynamicattribute
+					name="usemap"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vrml"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					name="x-ms-acceleratorkey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-aria-flowfrom"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='192.168.0.1']//input[#'GenerateNewWPSPin']
+				</path>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				Generate new WPS PIN
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f2f724e9-14da-4704-a6d5-f84cf7a93704"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="835"
+		sy="575"
+		loc="149;33">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="ce809380-e03d-4be1-a90f-c72283c4830a">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="686,542,295,64"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						submitNoBg
+					</attribute>
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						GenerateNewWPSPin
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						2147483647
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						6
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Generate new WPS PIN
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					name="accesskey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-atomic"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-autocomplete"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-dropeffect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-grabbed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-label"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiline"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-orientation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-sort"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuetext"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="border"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="cache"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dynsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hidefocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="indeterminate"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="loop"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="lowsrc"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="spellcheck"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="start"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="usemap"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vrml"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="vspace"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-acceleratorkey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-aria-flowfrom"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='192.168.0.1']//input[#'GenerateNewWPSPin']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f518a1cb-33d4-4790-ad2a-5eaa49a6d36f">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACMAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDot49G
+/KlDZPQj6ilooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+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
+oooAKKKKACiiigAooooAKKKKAMrWmC3Fkx6ByT+a1cF9akf8fEf/AH0Kfc2kF1t89N+3OOSMflUH
+9k2P/PD/AMfb/Gos09Do5qcoRUr6Ev221/5+Iv8AvoUfbbX/AJ+Iv++hUX9k2P8Azw/8fb/Gj+yb
+H/nh/wCPt/jT94X7nu/wJfttr/z8Rf8AfQo+22v/AD8Rf99Cov7Jsf8Anh/4+3+NH9k2P/PD/wAf
+b/Gj3g/c93+BL9ttf+fiL/voUfbbX/n4i/76FRf2TY/88P8Ax9v8aP7Jsf8Anh/4+3+NHvB+57v8
+CX7ba/8APxF/30KPttr/AM/EX/fQqL+ybH/nh/4+3+NH9k2P/PD/AMfb/Gj3g/c93+BL9ttf+fiL
+/voUfbbX/n4i/wC+hUX9k2P/ADw/8fb/ABo/smx/54f+Pt/jR7wfue7/AAJfttr/AM/EX/fQo+22
+v/PxF/30Ki/smx/54f8Aj7f40f2TY/8APD/x9v8AGj3g/c93+BL9ttf+fiL/AL6FH221/wCfiL/v
+oVF/ZNj/AM8P/H2/xo/smx/54f8Aj7f40e8H7nu/wJfttr/z8Rf99Cj7ba/8/EX/AH0Ki/smx/54
+f+Pt/jR/ZNj/AM8P/H2/xo94P3Pd/gS/bbX/AJ+Iv++hR9ttf+fiL/voVF/ZNj/zw/8AH2/xo/sm
+x/54f+Pt/jR7wfue7/Al+22v/PxF/wB9Cj7ba/8APxF/30Ki/smx/wCeH/j7f40f2TY/88P/AB9v
+8aPeD9z3f4Ev221/5+Iv++hR9ttf+fiL/voVF/ZNj/zw/wDH2/xo/smx/wCeH/j7f40e8H7nu/wJ
+fttr/wA/EX/fQo+22v8Az8Rf99Cov7Jsf+eH/j7f40f2TY/88P8Ax9v8aPeD9z3f4Ev221/5+Iv+
++hR9ttf+fiL/AL6FRf2TY/8APD/x9v8AGj+ybH/nh/4+3+NHvB+57v8AAl+22v8Az8Rf99Cj7ba/
+8/EX/fQqL+ybH/nh/wCPt/jR/ZNj/wA8P/H2/wAaPeD9z3f4Ev221/5+Iv8AvoUfbbX/AJ+Iv++h
+UX9k2P8Azw/8fb/Gj+ybH/nh/wCPt/jR7wfue7/Al+22v/PxF/30KPttr/z8Rf8AfQqL+ybH/nh/
+4+3+NH9k2P8Azw/8fb/Gj3g/c93+BL9ttf8An4i/76FH221/5+Iv++hUX9k2P/PD/wAfb/Gj+ybH
+/nh/4+3+NHvB+57v8CX7ba/8/EX/AH0Kq311bywsqTRkhG/iHoal/smx/wCeH/j7f40f2TY/88P/
+AB9v8aPeHF0U76/gGj/8gyH/AIF/6Eau0yGJIIhHEu1F6DOafTSsrGVSSlNyXUKKKKZAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="99e91174-0c00-437f-9653-1f7b48ff564e"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Info;20">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Generate_WPS_PIN.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

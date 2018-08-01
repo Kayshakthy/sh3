@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="d164b258-3eab-42d5-93d1-4a5033bee264"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		CaptureScreen
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CaptureScreen"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		useDefaultLogging="True"
+		searchpropertyid="acef5ade-68c3-4341-9b23-4707323fa0bf"
+		action="Screenshot"
+		category="User"
+		message="Connected Devices List"
+		reportlevel="Success;110">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="f8695d13-7e68-4815-8a8c-2db04c2e2238">
+				<path>
+					/form[@processname='explorer' and @class='WorkerW' and @instance='1']/?/?/list[@controlid='1']
+				</path>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CaptureScreen.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

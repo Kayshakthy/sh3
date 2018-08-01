@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="c652e1df-5eaa-491c-89c5-15d9375dae1b"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Rename_Ethernet_Device_Name
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Rename_Ethernet_Device_Name"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="Ethernet_Device_To_Rename"
+		id="41eb2874-4147-49ea-bc51-4537077e2489">
+		</var>
+		<var
+		name="New_Ethernet_Device_Name"
+		id="af57ee85-3bbb-4a20-85ba-a6d2eee029c4">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Choose_Ethernet_Device_To_Rename"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d2e6645c-c3b6-48b1-9a09-e2444a084d02">
+				<argument
+				variable="Ethernet_Device_To_Rename"
+				argname="argument1"
+				id="8f1c586f-aebb-4a77-a7e1-9c2bef0acbcf">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+				<argument
+				variable="New_Ethernet_Device_Name"
+				argname="argument2"
+				id="9ecf19a3-7eec-41fe-b25e-53ca67a9aacc">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Rename_Ethernet_Device_Name.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

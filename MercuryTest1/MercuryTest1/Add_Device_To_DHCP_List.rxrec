@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="78727c5f-b7d3-47fe-8b9e-70367e39933f"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Add_Device_To_DHCP_List
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Add_Device_To_DHCP_List"
+	namespace="ArrisTest"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="True"
+		duration="500ms"
+		useDefaultLogging="False"
+		searchpropertyid="540bad49-b264-4c47-b5a4-bb4a521b5aa6"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="0e283d7f-0547-4bbb-8df0-2a4bb568e401">
+				<path>
+					/dom[@domain='192.168.0.1']//div[#'AddReservedRule']//input[@id='IP_Add']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="Validate_DHCP_Reserved_Rule"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="cef853e0-2c0c-4146-a890-49e69082e53b"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Add_Device_To_DHCP_List.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

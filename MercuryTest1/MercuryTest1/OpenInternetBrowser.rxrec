@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="556c64c3-aa70-4da4-9908-860a198770b7"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		OpenInternetBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenInternetBrowser"
+	namespace="ArrisTest"/>
+	<variables>
+		<var
+		name="BoxUrl"
+		id="48b26b02-6744-4ba8-9c5c-c3966cba80be">
+		</var>
+		<var
+		name="ModemUrl"
+		id="9c10d9d3-4e37-4c4f-8579-523c975511d0">
+		</var>
+		<var
+		name="BrowserName"
+		id="7a2221dc-a603-4747-a5b4-10239b22c3a9">
+			IE
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="True"
+		useDefaultLogging="False"
+		browser="IE"
+		args=""
+		maximized="True"
+		incognito="False"
+		clearcache="False">
+			<comment>
+				Arris Automation
+			</comment>
+			<bindings>
+				<binding
+				target="BrowserName"
+				variable="BrowserName"/>
+				<binding
+				target="Url"
+				variable="BoxUrl"/>
+			</bindings>
+			<url>
+				http://192.168.100.1
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="MercuryTest1Repository"
+	id="a6948d6f-f45b-426f-bf4d-705a4926b792"
+	rxversion="6.1"
+	relativepath="MercuryTest1Repository.rxrep">
+		<codegen
+		classname="MercuryTest1Repository"
+		namespace="ArrisTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="be0df756-71f7-4052-9e46-366314bdcfce"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenInternetBrowser.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
